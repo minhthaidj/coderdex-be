@@ -20,6 +20,6 @@ app.use("/api/pokemons", apiRouter);
 app.use("/pokemons", apiRouter);
 app.use("/users", usersRouter);
 
-app.listen(8000, () => console.log("Server is up"));
+// app.listen(8000, () => console.log("Server is up"));
 
 module.exports = app;
