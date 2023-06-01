@@ -9,7 +9,7 @@ const createPokemon = async () => {
       id: e.No,
       name: e.Name,
       types: [e.Type1, e.Type2],
-      url: `http://localhost:3000/images/${e.No}.png`,
+      url: `https://coderdex-be-production-8b4c.up.railway.app/images/${e.No}.png`,
     };
   });
   data.data = newData;
